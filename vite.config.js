@@ -11,7 +11,8 @@ export default defineConfig({
         vue(),
     ],
     build: {
-        outDir: 'public/build', // Simpan hasil build di /public/build
+        outDir: 'public/build', // HARUS 'public/build' supaya Laravel bisa menemukannya
+        emptyOutDir: true,
         manifest: true,
         rollupOptions: {
             input: 'resources/js/app.js',
