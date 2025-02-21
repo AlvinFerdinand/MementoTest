@@ -11,7 +11,10 @@ export default defineConfig({
         vue(),
     ],
     build: {
-        outDir: 'dist', 
-        emptyOutDir: true,
-      }
+        outDir: 'public/build', // Simpan hasil build di /public/build
+        manifest: true,
+        rollupOptions: {
+            input: 'resources/js/app.js',
+        },
+    },
 });
