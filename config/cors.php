@@ -15,13 +15,13 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'paths' => ['api/*'],
 
     'allowed_methods' => ['*'],
 
     'allowed_origins' => ['https://resto-ezyaumbjc-alvins-projects-82d767c5.vercel.app'],
 
-    'allowed_origins_patterns' => [],
+   'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
 
