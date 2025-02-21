@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://resto-ezyaumbjc-alvins-projects-82d767c5.vercel.app'],
 
     'allowed_origins_patterns' => [],
 
