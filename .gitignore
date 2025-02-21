@@ -27,10 +27,7 @@ _ide_helper_models.php
 
 # Vite (Vue.js Build)
 public/hot
-public/build
-/public/js/
-/public/css/
-/dist
+
 
 # Testing
 /phpunit.result.cache
